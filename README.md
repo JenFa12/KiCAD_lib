@@ -22,22 +22,22 @@ The following README explains how to set up KiCad with the lib and how to add yo
 
 ### Symbol Editor
 Library:
-- Existing Library: File -> Add Library -> Global -> {kicad-lib-path}/symbols -> thu-{bibgroub}-tht.lib -> symbol.kicad_sym
-- New Library: File -> New Library -> Global -> {kicad-lib-path}/symbols -> thu-{bibgroub}-tht.lib -> {New_Library}.kicad_sym
+- Existing Library: File -> Add Library -> Global -> {kicad-lib-path}/symbols -> {bibgroub}-tht.lib -> symbol.kicad_sym
+- New Library: File -> New Library -> Global -> {kicad-lib-path}/symbols -> {bibgroub}-tht.lib -> {New_Library}.kicad_sym
 
 Symbol:
-- Existing Symbol: Select existing lib -> File -> Import Symbol -> Global -> {kicad-lib-path}/symbols -> thu-{bibgroub}-tht.lib -> {symbol}.lib
+- Existing Symbol: Select existing lib -> File -> Import Symbol -> Global -> {kicad-lib-path}/symbols -> {bibgroub}-tht.lib -> {symbol}.lib
 - New Symbol: Select existing lib -> File -> New Symbol
 
 ### Footprint Editor
 Library:
-- Existing Library: File -> Add Library -> Global -> {kicad-lib-path}/footprints -> thu-{bibgroub}-tht.pretty
-- New Library: File -> New Library -> Global -> {kicad-lib-path}/footprints -> thu-{bibgroub}-tht.pretty
+- Existing Library: File -> Add Library -> Global -> {kicad-lib-path}/footprints -> {bibgroub}-tht.pretty
+- New Library: File -> New Library -> Global -> {kicad-lib-path}/footprints -> {bibgroub}-tht.pretty
 
 Footprint:
-- Existing Footprint: Select existing lib -> File -> Import Symbol -> Global -> {kicad-lib-path}/footprints -> thu-{bibgroub}-tht.pretty -> {symbol}.kicad_mod
+- Existing Footprint: Select existing lib -> File -> Import Symbol -> Global -> {kicad-lib-path}/footprints -> {bibgroub}-tht.pretty -> {symbol}.kicad_mod
 - New Footprint: Select existing lib -> File -> New Symbol
 
 ### 3d Model
-- Save 3D-Modle into {kicad-lib-path}/packages§D -> thu-{bibgroub}-tht.3dshapes -> {modelname}.step
+- Save 3D-Modle into {kicad-lib-path}/packages§D -> {bibgroub}-tht.3dshapes -> {modelname}.step
 - Add Model in the Footprint Editor to the footprint: Press Key E -> 3D-Model -> Add 3D-Model
