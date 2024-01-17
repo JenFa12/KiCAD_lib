@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# WireLoop
+#
+DEF WireLoop WL 0 40 Y Y 1 F N
+F0 "WL" 0 175 50 H V C CNN
+F1 "WireLoop" 0 275 50 H V C CNN
+F2 "LoS_01:WireLoop_508" -25 -350 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 25 103 1660 140 0 1 0 N -100 50 100 50
+X ~ 0 -100 -50 100 U 50 50 1 1 P
+X ~ 1 100 -50 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
